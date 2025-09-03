@@ -12,7 +12,7 @@ const server = http.createServer(app);
 // create socket.io server on top of http server
 const io = new Server(server, {
     cors: {
-        origin: process.env.NODE_ENV === 'development' ? process.env.FRONTEND_DEV_URL : process.env.FRONTEND_PROD_URL,
+        origin: process.env.NODE_ENV === 'development' ? process.env.FRONTEND_DEV_URL : '*',
         credentials: process.env.NODE_ENV === 'development'
     }
 });

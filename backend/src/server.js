@@ -22,7 +22,7 @@ app.use(express.json({limit: '50mb'}));
 app.use(express.urlencoded({limit: '50mb', extended:true, parameterLimit: 50000}));
 app.use(cookieParser());
 app.use(cors({
-    origin: process.env.NODE_ENV === 'development' ? process.env.FRONTEND_DEV_URL : process.env.FRONTEND_PROD_URL,
+    origin: process.env.NODE_ENV === 'development' ? process.env.FRONTEND_DEV_URL : '*',
     credentials: process.env.NODE_ENV === 'development'
 }));
 
