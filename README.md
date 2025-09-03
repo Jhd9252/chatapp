@@ -8,7 +8,7 @@
 ## Goal:
 
 This was a personal project, following along Burak Orkmez's course (https://www.udemy.com/course/the-web-dev-bootcamp/?couponCode=DA64BA3F36F6D786D143).
-My personal goal for this project was more exposure to backend API creation, and first time use of websockets. 
+My personal goal for this project was more exposure to backend RESTful APIs, websockets, password encryption and MERN.
 
 ---
 ## Features
