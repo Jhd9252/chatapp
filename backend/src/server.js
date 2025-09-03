@@ -48,6 +48,6 @@ server.listen(PORT, () => {
 })
 
 // Health check on deployment (curl http://localhost:5000/)
-app.get('/', (req, res) => {
+app.get('/health', (req, res) => {
     res.send(' Express backend is running');
 });
