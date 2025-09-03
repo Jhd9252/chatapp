@@ -1,0 +1,13 @@
+name: Ping backend health check
+
+on:
+  workflow_dispatch: 
+  schedule:
+    - cron: '*/20 * * * *'  # runs every 20min
+
+jobs:
+  ping-backend:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl health endpoint
+        run: curl -fsS https://mern-chatapp-1vc1.onrender.com/health
