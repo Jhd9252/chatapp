@@ -66,7 +66,7 @@ JWT (on subseqent requests)
     - Server grants access or error response back
 
 ---
-## Checklist (local)
+## Checklist (Deployed)
 - Setup backend (Node, Express)
 - Setup MongoDB connection, schema, models
     - user schema and model
@@ -104,11 +104,12 @@ JWT (on subseqent requests)
     - show online only toggle feature on homepage
     - update autoscroll to end in message history on event
 
-Deployment (Currently working)
+Deployment 
     - dynamic routing
     - build static assets
+    - deploy on Render
 
-- Bug/Features/Improvements
+- Bug/Features/Improvements (Currently working)
     - image sends do not scroll all the way done
     - centralize socket entries and sub/unsub into a single point
 
