@@ -4,11 +4,6 @@
 - Database: MongoDB, Cloudinary (images)
 - Build: Vite
 - State Management: Zustand
----
-## Goal:
-
-This was a personal project, following along Burak Orkmez's course (https://www.udemy.com/course/the-web-dev-bootcamp/?couponCode=DA64BA3F36F6D786D143).
-My personal goal for this project was more exposure to backend RESTful APIs, websockets, password encryption and MERN.
 
 ---
 ## Features
@@ -110,9 +105,10 @@ Deployment
     - deploy on Render
 
 - Bug/Features/Improvements (Currently working)
-    - image sends do not scroll all the way done
+    - image sends do not scroll all the way done in the chatbox
     - centralize socket entries and sub/unsub into a single point
-
+    - create user defined friends and groups (take away the MVP feature of global chat)
+    - Integrate LLM (accounts and behavior) to simulate the Mafia Game in group chats.
 
 ## Socket.io (https://socket.io/docs/v3): What did I learn
 - A library that enables real-time bidirectional and event-based communication between browser and server. 
@@ -128,3 +124,11 @@ Deployment
     - Receive data (HTTP long-polling)
     - Upgrade (WebSocket)
     - Receive data (HTTP long-polling is closed once WebSocket connection is established)
+ 
+---
+## Goal:
+
+Learn things not taught in school (front end, backend, frameworks, APIs, sockets, state management, JWT best practices, desiging a full application, etc). 
+More exposure to backend APIs, sockets and password encryption. The most difficult part was desiging the user and data flow. 
+Burak Orkmez's resources and courses were a great place to follow along and compare how I built a part vs how he did. The process followed the general steps of designing and building, comparing, researching the **why**, and iterating to reform my decision making. Starting from zero, this process was much better than blindly following a tutorial. 
+
