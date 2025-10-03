@@ -99,12 +99,13 @@ JWT (on subseqent requests)
     - show online only toggle feature on homepage
     - update autoscroll to end in message history on event
 
-Deployment 
+- Deployment 
     - dynamic routing
     - build static assets
     - deploy on Render
 
 - Bug/Features/Improvements (Currently working)
+    - learn about and create unit tests / integration tests
     - image sends do not scroll all the way done in the chatbox
     - centralize socket entries and sub/unsub into a single point
     - create user defined friends and groups (take away the MVP feature of global chat)
